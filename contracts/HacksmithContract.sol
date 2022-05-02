@@ -12,7 +12,7 @@ contract HacksmithContract is ERC721, PullPayment, Ownable {
   using Counters for Counters.Counter;
 
   uint256 public constant TOTAL_SUPPLY = 2;
-  uint256 public constant MINT_PRICE = 0.000504 ether;
+  uint256 public constant MINT_PRICE = 0 ether;
 
   Counters.Counter private currentTokenId;
 
