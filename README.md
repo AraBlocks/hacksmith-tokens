@@ -20,7 +20,7 @@ Copy `example.env` to `.env`, and fill it in. For rinkeby:
 
 ```
 ETHEREUM_NETWORK=rinkeby
-WALLET_PRIVATE_KEY=*InsertLettersAndNumbersHere*
+WALLET_PRIVATE_KEY=InsertLettersAndNumbersHere
 ALCHEMY_API_KEY=InsertLettersAndNumbersHere
 ETHERSCAN_API_KEY=InsertLettersAndNumbersHere
 DEPLOYED_CONTRACT_ADDRESS=FillInAfterDeploying
