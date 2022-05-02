@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/security/PullPayment.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract SimpleContract is ERC721, PullPayment, Ownable {
+contract HacksmithContract is ERC721, PullPayment, Ownable {
   using Counters for Counters.Counter;
 
   uint256 public constant TOTAL_SUPPLY = 2;
